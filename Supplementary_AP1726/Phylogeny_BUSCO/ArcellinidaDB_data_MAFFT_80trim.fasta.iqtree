@@ -1,0 +1,264 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: test_data_MAFFT_80trim.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 866386
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 10 sequences with 620 nucleotide sites
+Number of constant sites: 332 (= 53.5484% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 332 (= 53.5484% of all sites)
+Number of parsimony informative sites: 171
+Number of distinct site patterns: 285
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+G4
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+GTR+F+G4         -3323.7229   6699.4458 + 0.7653   6701.8135 + 0.7810   6814.6186 + 0.9082
+TVM+F+G4         -3330.3408   6710.6816 - 0.0028   6712.8702 - 0.0031   6821.4246 - 0.0302
+GTR+F+I+G4       -3323.9234   6701.8468 + 0.2304   6704.4008 + 0.2142   6821.4492 - 0.0298
+TIM+F+G4         -3333.7406   6715.4811 - 0.0003   6717.4980 - 0.0003   6821.7944 - 0.0251
+K3Pu+F+G4        -3339.0457   6724.0914 - 0.0000   6725.9438 - 0.0000   6825.9750 - 0.0031
+TIM+F+I+G4       -3333.2444   6716.4889 - 0.0002   6718.6774 - 0.0002   6827.2319 - 0.0017
+TVM+F+I+G4       -3330.2141   6712.4283 - 0.0012   6714.7959 - 0.0012   6827.6010 - 0.0014
+K3Pu+F+I+G4      -3338.1527   6724.3053 - 0.0000   6726.3221 - 0.0000   6830.6186 - 0.0003
+TIM2+F+G4        -3339.0782   6726.1565 - 0.0000   6728.1733 - 0.0000   6832.4697 - 0.0001
+TIM2+F+I+G4      -3338.7469   6727.4939 - 0.0000   6729.6824 - 0.0000   6838.2369 - 0.0000
+TPM2u+F+G4       -3345.5747   6737.1493 - 0.0000   6739.0017 - 0.0000   6839.0329 - 0.0000
+TPM2+F+G4        -3345.5759   6737.1518 - 0.0000   6739.0042 - 0.0000   6839.0354 - 0.0000
+GTR+F+I          -3337.6819   6727.3637 - 0.0000   6729.7314 - 0.0000   6842.5365 - 0.0000
+TPM2u+F+I+G4     -3344.5586   6737.1173 - 0.0000   6739.1341 - 0.0000   6843.4305 - 0.0000
+TPM2+F+I+G4      -3344.5674   6737.1349 - 0.0000   6739.1517 - 0.0000   6843.4481 - 0.0000
+TVM+F+I          -3341.7101   6733.4202 - 0.0000   6735.6087 - 0.0000   6844.1632 - 0.0000
+TIM+F+I          -3345.8931   6739.7862 - 0.0000   6741.8030 - 0.0000   6846.0994 - 0.0000
+K3Pu+F+I         -3349.1896   6744.3793 - 0.0000   6746.2316 - 0.0000   6846.2628 - 0.0000
+TIM2+F+I         -3350.6929   6749.3859 - 0.0000   6751.4027 - 0.0000   6855.6992 - 0.0000
+TPM2u+F+I        -3354.8848   6755.7696 - 0.0000   6757.6219 - 0.0000   6857.6531 - 0.0000
+TPM2+F+I         -3354.8856   6755.7712 - 0.0000   6757.6236 - 0.0000   6857.6548 - 0.0000
+TIM3+F+G4        -3365.9328   6779.8656 - 0.0000   6781.8824 - 0.0000   6886.1788 - 0.0000
+TIM3+F+I+G4      -3364.5951   6779.1902 - 0.0000   6781.3788 - 0.0000   6889.9332 - 0.0000
+TN+F+G4          -3371.9060   6789.8119 - 0.0000   6791.6643 - 0.0000   6891.6955 - 0.0000
+TPM3u+F+G4       -3372.5316   6791.0633 - 0.0000   6792.9156 - 0.0000   6892.9468 - 0.0000
+TPM3+F+G4        -3372.5319   6791.0638 - 0.0000   6792.9162 - 0.0000   6892.9474 - 0.0000
+TN+F+I+G4        -3370.4977   6788.9953 - 0.0000   6791.0122 - 0.0000   6895.3086 - 0.0000
+TPM3u+F+I+G4     -3370.9584   6789.9168 - 0.0000   6791.9337 - 0.0000   6896.2301 - 0.0000
+TPM3+F+I+G4      -3370.9642   6789.9283 - 0.0000   6791.9451 - 0.0000   6896.2416 - 0.0000
+HKY+F+G4         -3378.2460   6800.4920 - 0.0000   6802.1871 - 0.0000   6897.9458 - 0.0000
+HKY+F+I+G4       -3377.2558   6800.5115 - 0.0000   6802.3639 - 0.0000   6902.3951 - 0.0000
+TIM3+F+I         -3376.3954   6800.7908 - 0.0000   6802.8076 - 0.0000   6907.1041 - 0.0000
+TPM3+F+I         -3380.1254   6806.2509 - 0.0000   6808.1032 - 0.0000   6908.1344 - 0.0000
+TPM3u+F+I        -3380.1256   6806.2512 - 0.0000   6808.1035 - 0.0000   6908.1347 - 0.0000
+F81+F+G4         -3387.1189   6816.2377 - 0.0000   6817.7829 - 0.0000   6909.2618 - 0.0000
+TN+F+I           -3383.0078   6812.0156 - 0.0000   6813.8680 - 0.0000   6913.8992 - 0.0000
+HKY+F+I          -3386.7851   6817.5702 - 0.0000   6819.2653 - 0.0000   6915.0240 - 0.0000
+F81+F+I+G4       -3386.8279   6817.6558 - 0.0000   6819.3510 - 0.0000   6915.1097 - 0.0000
+F81+F+I          -3393.9140   6829.8279 - 0.0000   6831.3731 - 0.0000   6922.8520 - 0.0000
+SYM+G4           -3395.8744   6837.7487 - 0.0000   6839.6011 - 0.0000   6939.6323 - 0.0000
+SYM+I+G4         -3393.9333   6835.8666 - 0.0000   6837.8834 - 0.0000   6942.1798 - 0.0000
+TVMe+G4          -3404.2754   6852.5508 - 0.0000   6854.2459 - 0.0000   6950.0046 - 0.0000
+TVMe+I+G4        -3401.9017   6849.8035 - 0.0000   6851.6558 - 0.0000   6951.6870 - 0.0000
+SYM+I            -3402.3244   6850.6489 - 0.0000   6852.5012 - 0.0000   6952.5324 - 0.0000
+TVMe+I           -3411.1897   6866.3793 - 0.0000   6868.0745 - 0.0000   6963.8331 - 0.0000
+TIMe+G4          -3439.9163   6921.8326 - 0.0000   6923.3777 - 0.0000   7014.8567 - 0.0000
+TIMe+I+G4        -3437.6908   6919.3816 - 0.0000   6921.0767 - 0.0000   7016.8354 - 0.0000
+TIMe+I           -3444.6367   6931.2734 - 0.0000   6932.8185 - 0.0000   7024.2975 - 0.0000
+K3P+G4           -3451.3876   6942.7753 - 0.0000   6944.1776 - 0.0000   7031.3697 - 0.0000
+K3P+I+G4         -3448.7260   6939.4519 - 0.0000   6940.9971 - 0.0000   7032.4760 - 0.0000
+K3P+I            -3454.2206   6948.4411 - 0.0000   6949.8435 - 0.0000   7037.0355 - 0.0000
+TIM2e+G4         -3458.7743   6959.5486 - 0.0000   6961.0937 - 0.0000   7052.5727 - 0.0000
+TIM2e+I+G4       -3457.1120   6958.2240 - 0.0000   6959.9191 - 0.0000   7055.6778 - 0.0000
+TIM2e+I          -3464.5639   6971.1278 - 0.0000   6972.6729 - 0.0000   7064.1519 - 0.0000
+TIM3e+I+G4       -3471.6789   6987.3579 - 0.0000   6989.0530 - 0.0000   7084.8117 - 0.0000
+TIM3e+G4         -3475.6514   6993.3028 - 0.0000   6994.8479 - 0.0000   7086.3269 - 0.0000
+TIM3e+I          -3475.9305   6993.8611 - 0.0000   6995.4062 - 0.0000   7086.8852 - 0.0000
+GTR+F            -3484.8221   7019.6442 - 0.0000   7021.8327 - 0.0000   7130.3871 - 0.0000
+TVM+F            -3497.9637   7043.9274 - 0.0000   7045.9442 - 0.0000   7150.2407 - 0.0000
+TIM2+F           -3503.9723   7053.9445 - 0.0000   7055.7969 - 0.0000   7155.8281 - 0.0000
+TIM+F            -3510.0627   7066.1254 - 0.0000   7067.9777 - 0.0000   7168.0089 - 0.0000
+TNe+I            -3520.5390   7081.0780 - 0.0000   7082.4803 - 0.0000   7169.6724 - 0.0000
+TNe+I+G4         -3517.5431   7077.0862 - 0.0000   7078.6313 - 0.0000   7170.1103 - 0.0000
+TNe+G4           -3521.1273   7082.2546 - 0.0000   7083.6569 - 0.0000   7170.8490 - 0.0000
+JC+I             -3529.5476   7095.0951 - 0.0000   7096.2332 - 0.0000   7174.8301 - 0.0000
+TPM2+F           -3518.4713   7080.9426 - 0.0000   7082.6377 - 0.0000   7178.3964 - 0.0000
+TPM2u+F          -3518.4713   7080.9427 - 0.0000   7082.6378 - 0.0000   7178.3965 - 0.0000
+JC+G4            -3531.6625   7099.3249 - 0.0000   7100.4630 - 0.0000   7179.0599 - 0.0000
+K2P+I            -3529.5262   7097.0523 - 0.0000   7098.3190 - 0.0000   7181.2170 - 0.0000
+JC+I+G4          -3530.7453   7099.4907 - 0.0000   7100.7574 - 0.0000   7183.6554 - 0.0000
+K2P+G4           -3531.6627   7101.3253 - 0.0000   7102.5920 - 0.0000   7185.4900 - 0.0000
+K3Pu+F           -3522.1307   7088.2613 - 0.0000   7089.9565 - 0.0000   7185.7151 - 0.0000
+K2P+I+G4         -3530.4356   7100.8712 - 0.0000   7102.2735 - 0.0000   7189.4655 - 0.0000
+SYM              -3533.5448   7111.0896 - 0.0000   7112.7847 - 0.0000   7208.5434 - 0.0000
+TVMe             -3547.5101   7137.0201 - 0.0000   7138.5653 - 0.0000   7230.0442 - 0.0000
+TIM3+F           -3542.1320   7130.2640 - 0.0000   7132.1163 - 0.0000   7232.1475 - 0.0000
+TPM3u+F          -3552.6290   7149.2580 - 0.0000   7150.9532 - 0.0000   7246.7119 - 0.0000
+TPM3+F           -3552.6292   7149.2584 - 0.0000   7150.9535 - 0.0000   7246.7122 - 0.0000
+TN+F             -3558.1622   7160.3244 - 0.0000   7162.0195 - 0.0000   7257.7782 - 0.0000
+F81+F            -3572.4680   7184.9360 - 0.0000   7186.3383 - 0.0000   7273.5304 - 0.0000
+HKY+F            -3569.9417   7181.8834 - 0.0000   7183.4285 - 0.0000   7274.9075 - 0.0000
+TIM2e            -3593.1808   7226.3616 - 0.0000   7227.7639 - 0.0000   7314.9560 - 0.0000
+TIMe             -3600.9701   7241.9402 - 0.0000   7243.3425 - 0.0000   7330.5346 - 0.0000
+K3P              -3614.4871   7266.9742 - 0.0000   7268.2408 - 0.0000   7351.1388 - 0.0000
+TIM3e            -3616.4692   7272.9383 - 0.0000   7274.3407 - 0.0000   7361.5327 - 0.0000
+TNe              -3669.2832   7376.5663 - 0.0000   7377.8330 - 0.0000   7460.7310 - 0.0000
+JC               -3682.0955   7398.1909 - 0.0000   7399.2076 - 0.0000   7473.4962 - 0.0000
+K2P              -3682.0942   7400.1885 - 0.0000   7401.3266 - 0.0000   7479.9234 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 3.6126
+  A-G: 17.3778
+  A-T: 14.8853
+  C-G: 3.6349
+  C-T: 8.0754
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2574
+  pi(C) = 0.1358
+  pi(G) = 0.1736
+  pi(T) = 0.4332
+
+Rate matrix Q:
+
+  A    -1.556   0.07667    0.4717     1.008
+  C    0.1454   -0.7909   0.09867    0.5469
+  G    0.6992   0.07714   -0.8441   0.06772
+  T    0.5989    0.1714   0.02715   -0.7974
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.3715
+
+ Category  Relative_rate  Proportion
+  1         0.01282        0.25
+  2         0.1602         0.25
+  3         0.6985         0.25
+  4         3.129          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3316.3163 (s.e. 102.5414)
+Unconstrained log-likelihood (without tree): -2819.7714
+Number of free parameters (#branches + #model parameters): 26
+Akaike information criterion (AIC) score: 6684.6325
+Corrected Akaike information criterion (AICc) score: 6687.0002
+Bayesian information criterion (BIC) score: 6799.8053
+
+Total tree length (sum of branch lengths): 1.7878
+Sum of internal branch lengths: 0.1849 (10.3448% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Centropyxis_sp_CaerLAHR_Contig1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----------------------Centropyxis_sp_CaerLAHR_Contig1
+|
+|      +---------------Arcegibb_c9785_g1_i1
+|   +--| (22)
+|   |  |        +----------------------------Pyxidicula_operculata_Pyxioper_Contig1
+|   |  |  +-----| (52)
+|   |  |  |     |        +-----------------------------------Difflugia_compressa_DiffUSP_Contig1
+|   |  |  |     +--------| (63)
+|   |  |  |              +------------------Difflugia_bryophila_M4
+|   |  +--| (22)
+|   |     +------------------------------Crytodiffugia_sp_Contig1
++---| (37)
+|   |  +-----------------------------------Heleopera_sylvatica_HsylLAHR_Contig1
+|   +--| (25)
+|      |  +-------------------------Nebela0_1036bp_Contig1
+|      +--| (72)
+|         +--------------Cyclopyxis_impressa_Cyclsp1_Contig1
+|
++---------------------------Difflugia_sp_DiffD2_Contig2
+
+Tree in newick format:
+
+(Centropyxis_sp_CaerLAHR_Contig1:0.1431738975,((Arcegibb_c9785_g1_i1:0.0985598295,((Pyxidicula_operculata_Pyxioper_Contig1:0.1765476311,(Difflugia_compressa_DiffUSP_Contig1:0.2197247598,Difflugia_bryophila_M4:0.1190148308)63:0.0585986827)52:0.0418276219,Crytodiffugia_sp_Contig1:0.1888025238)22:0.0074847776)22:0.0094199582,(Heleopera_sylvatica_HsylLAHR_Contig1:0.2247105569,(Nebela0_1036bp_Contig1:0.1611322668,Cyclopyxis_impressa_Cyclsp1_Contig1:0.0960486930)72:0.0237403716)25:0.0161918189)37:0.0276814657,Difflugia_sp_DiffD2_Contig2:0.1751423988);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -3316.316287
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----------------------Centropyxis_sp_CaerLAHR_Contig1
+|
+|      +---------------Arcegibb_c9785_g1_i1
+|   +--| (22)
+|   |  |        +----------------------------Pyxidicula_operculata_Pyxioper_Contig1
+|   |  |  +-----| (52)
+|   |  |  |     |        +-----------------------------------Difflugia_compressa_DiffUSP_Contig1
+|   |  |  |     +--------| (63)
+|   |  |  |              +------------------Difflugia_bryophila_M4
+|   |  +--| (22)
+|   |     +------------------------------Crytodiffugia_sp_Contig1
++---| (37)
+|   |  +-----------------------------------Heleopera_sylvatica_HsylLAHR_Contig1
+|   +--| (25)
+|      |  +-------------------------Nebela0_1036bp_Contig1
+|      +--| (72)
+|         +--------------Cyclopyxis_impressa_Cyclsp1_Contig1
+|
++---------------------------Difflugia_sp_DiffD2_Contig2
+
+
+Consensus tree in newick format: 
+
+(Centropyxis_sp_CaerLAHR_Contig1:0.1431122992,((Arcegibb_c9785_g1_i1:0.0985554081,((Pyxidicula_operculata_Pyxioper_Contig1:0.1765398457,(Difflugia_compressa_DiffUSP_Contig1:0.2197162658,Difflugia_bryophila_M4:0.1189386898)63:0.0586399224)52:0.0417923856,Crytodiffugia_sp_Contig1:0.1887433263)22:0.0074959898)22:0.0094048406,(Heleopera_sylvatica_HsylLAHR_Contig1:0.2246928308,(Nebela0_1036bp_Contig1:0.1611180292,Cyclopyxis_impressa_Cyclsp1_Contig1:0.0960367334)72:0.0237505914)25:0.0161873224)37:0.0277508486,Difflugia_sp_DiffD2_Contig2:0.1751044187);
+
+TIME STAMP
+----------
+
+Date and time: Sat May  4 19:23:20 2024
+Total CPU time used: 1.625878 seconds (0h:0m:1s)
+Total wall-clock time used: 13.758394 seconds (0h:0m:13s)
+
