@@ -1,0 +1,10 @@
+Type	#Seqs
+Total	34133
+Without Analysis	0
+Only With InterProScan	0
+With Blast (no hits)	8604
+With Blast Hits	43
+With GO Mapping	1611
+With GO Annotation	23875
+With Manual GO Annotation	0
+With GO-Slim	0
